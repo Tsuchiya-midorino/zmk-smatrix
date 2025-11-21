@@ -114,10 +114,10 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE        &kp Q         &kp W    &kp E      &kp R        &kp T                                          &kp Y        &kp U          &kp I      &kp O       &kp P     &kp BACKSPACE
-&kp LCTRL         &kp A         &kp S    &kp D      &kp F        &kp G                                          &kp H        &kp J          &kp K      &kp L       &kp SEMI  &kp MINUS
-&kp LSHFT         &kp Z         &kp X    &kp C      &kp V        &kp B        &macro_w_TMute    &kp LG(LS(N4))  &kp N        &kp M          &kp COMMA  &kp PERIOD  &kp UP    &mt RSHFT SLASH
-&kp LEFT_COMMAND  &kp LEFT_ALT  &kp TAB  &kp SPACE  &lt 1 SPACE  &lt 2 LANG2                                    &lt 3 LANG1  &kp BACKSPACE  &kp ENTER  &kp LEFT    &kp DOWN  &kp RIGHT
+&kp ESCAPE        &kp Q         &kp W    &kp E      &kp R        &kp T                                 &kp Y        &kp U          &kp I      &kp O       &kp P     &kp BACKSPACE
+&kp LCTRL         &kp A         &kp S    &kp D      &kp F        &kp G                                 &kp H        &kp J          &kp K      &kp L       &kp SEMI  &kp MINUS
+&kp LSHFT         &kp Z         &kp X    &kp C      &kp V        &kp B        &mo 3    &kp LG(LS(N4))  &kp N        &kp M          &kp COMMA  &kp PERIOD  &kp UP    &mt RSHFT SLASH
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp TAB  &kp SPACE  &lt 1 SPACE  &lt 2 LANG2                           &lt 3 LANG1  &kp BACKSPACE  &kp ENTER  &kp LEFT    &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings = <&rot_kp C_VOL_UP C_VOL_DN    &mouse_scrl SCRL_UP SCRL_DOWN>;
